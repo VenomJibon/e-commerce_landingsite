@@ -1,6 +1,6 @@
 
-.con01{
-    margin-top: 100px;
+.container{
+    margin-bottom: 100px;
 
 }
 .bg-color{
@@ -23,6 +23,27 @@
     /*To show a pointer type different cursor whenever the mouse is pointed there*/
 }
 
+.cat1, .cat2, .cat3{
+    padding: 10px 30px;
+    border-radius: 10px;
+}
+
+.cat1{
+    background-color: orange;
+    
+}
+.cat2{
+    background-color: aqua;
+   
+}
+.cat3{
+    background-color: rgb(198, 132, 234);
+    
+}
+
+.third h1{
+    color: white;
+}
 
 
 
