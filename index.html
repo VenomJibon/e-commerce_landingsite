@@ -9,6 +9,111 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <!--Nav Bar-->
+    <div class="container">
+        <!--Made the div and the container class to keep the nav bar in center with space-->
+        <nav class="navbar navbar-expand-lg bg-light">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">
+                  <img class ="rounded-circle"src="resources/tfr.png" alt="">
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Shoes</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Backpack</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Pricing
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="#">Shoe</a></li>
+                      <li><a class="dropdown-item" href="#">Backpack</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Watches</a></li>
+                    </ul>
+                  </li>
+                  
+                </ul>
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+      <!--Carousel-->
+      <div class="container con01">
+        <div id="carouselExampleIndicators" class="carousel slide bg-color" data-bs-ride="true">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="row align-items-center">
+                <div class="col-md-7">
+                  <h1>Mi LED TV 4A PRO 32</h1>
+                  <p class="p-align">The Mi LED TV 4A PRO (32) offers the complete cinematic experience at home. The featured Full HD LED display delivers on clarity and color. The improved graphics engine reduces noise, enhances brightness and renders a rich range of colors. Binge watchers can rejoice as the Android TV integrates PatchWall that comes with more than 700,000 hours of content suited for the entire family. Enjoy cinematic sound quality with the dual 10W stereo speakers.</p>
+                  <h1 id="buy-col">$1200</h1>
+                  <button class="btn bn btn-danger">Buy Now</button>
+                </div>
+                <div class="col-md-5">
+                  <img src="resources/banner-images/tv.png" class="d-block w-100" alt="...">
+
+                </div>
+              </div>
+              
+            </div>
+            <div class="carousel-item">
+              <div class="row align-items-center">
+                <div class="col-md-7">
+                  <h1>XBOX SERIES S</h1>
+                  <p class="p-align">The next generation of gaming brings our largest digital library yet to our smallest Xbox ever. With more dynamic worlds, faster load times, and the addition of Xbox Game Pass (sold separately), the all-digital Xbox Series S is the best value in gaming.</p>
+                  <h1 id="buy-col">$600</h1>
+                  <button class="btn bn btn-danger">Buy Now</button>
+
+                </div>
+                <div class="col-md-5">
+                  <img src="resources/banner-images/xbox.png" class="d-block w-100" alt="...">
+
+                </div>
+              </div>
+              
+            </div>
+            <div class="carousel-item">
+              <div class="row align-items-center">
+                <div class="col-md-7">
+                  <h1>TFR HEADPHONE MODEL X</h1>
+                  <p class="p-align">You might have tried Razer, SteelSeries, Beats and more different brands for headphones. But this headset is different, when you wear it, you'll go to a diffrent world, mixed of imagination and reality. Just get your hands on it and test by yourself.</p>
+                  <h1 id="buy-col">$300</h1>
+                  <button class="btn bn btn-danger">Buy Now</button>
+
+                </div>
+                <div class="col-md-5">
+                  <img src="resources/banner-images/headphone.png" class="d-block w-100" alt="...">
+
+                </div>
+                </div>
+              
+              </div>
+          </div>
+          
+        </div>
+      </div>
+
+
+    </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>  
 </body>
 </html>
