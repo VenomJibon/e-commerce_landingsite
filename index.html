@@ -26,20 +26,21 @@
                     <a class="nav-link active" aria-current="page" href="#">Home</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Shoes</a>
+                    <!--We can use this id #shoes next to navigate using one click-->
+                    <a class="nav-link" href="#shoes">Shoes</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Backpack</a>
+                    <a class="nav-link" href="#backpack">Backpack</a>
                   </li>
                   <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <a class="nav-link dropdown-toggle" href="#pricing" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                       Pricing
                     </a>
                     <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                      <li><a class="dropdown-item" href="#">Shoe</a></li>
-                      <li><a class="dropdown-item" href="#">Backpack</a></li>
+                      <li><a class="dropdown-item" href="#shoes">Shoe</a></li>
+                      <li><a class="dropdown-item" href="#backpack">Backpack</a></li>
                       <li><hr class="dropdown-divider"></li>
-                      <li><a class="dropdown-item" href="#">Watches</a></li>
+                      <li><a class="dropdown-item" href="#watches">Watches</a></li>
                     </ul>
                   </li>
                   
@@ -66,8 +67,8 @@
                 <div class="col-md-7">
                   <h1>Mi LED TV 4A PRO 32</h1>
                   <p class="p-align">The Mi LED TV 4A PRO (32) offers the complete cinematic experience at home. The featured Full HD LED display delivers on clarity and color. The improved graphics engine reduces noise, enhances brightness and renders a rich range of colors. Binge watchers can rejoice as the Android TV integrates PatchWall that comes with more than 700,000 hours of content suited for the entire family. Enjoy cinematic sound quality with the dual 10W stereo speakers.</p>
-                  <h1 id="buy-col">$1200</h1>
-                  <button class="btn bn btn-danger">Buy Now</button>
+                  <h2 id="buy-col">$1200</h2>
+                  <button class="btn bn btn-danger">Buy Now >></button>
                 </div>
                 <div class="col-md-5">
                   <img src="resources/banner-images/tv.png" class="d-block w-100" alt="...">
@@ -81,8 +82,8 @@
                 <div class="col-md-7">
                   <h1>XBOX SERIES S</h1>
                   <p class="p-align">The next generation of gaming brings our largest digital library yet to our smallest Xbox ever. With more dynamic worlds, faster load times, and the addition of Xbox Game Pass (sold separately), the all-digital Xbox Series S is the best value in gaming.</p>
-                  <h1 id="buy-col">$600</h1>
-                  <button class="btn bn btn-danger">Buy Now</button>
+                  <h2 id="buy-col">$600</h2>
+                  <button class="btn bn btn-danger">Buy Now >></button>
 
                 </div>
                 <div class="col-md-5">
@@ -97,8 +98,8 @@
                 <div class="col-md-7">
                   <h1>TFR HEADPHONE MODEL X</h1>
                   <p class="p-align">You might have tried Razer, SteelSeries, Beats and more different brands for headphones. But this headset is different, when you wear it, you'll go to a diffrent world, mixed of imagination and reality. Just get your hands on it and test by yourself.</p>
-                  <h1 id="buy-col">$300</h1>
-                  <button class="btn bn btn-danger">Buy Now</button>
+                  <h2 id="buy-col">$300</h2>
+                  <button class="btn bn btn-danger">Buy Now >></button>
 
                 </div>
                 <div class="col-md-5">
@@ -116,33 +117,162 @@
 
     </div>
 
-    <!--3rd Container-->
+    <!--3rd Container, catagory section-->
     <div class="container third ">
-      <div class="row  ">
+      <div class="row ">
         <div class="col-md-4">
-          <div class="cat1 d-flex justify-content-between align-items-center">
-            <h1>Watch</h1>
-            <img src="resources/categories/watch.png" alt="">
+          <!--Made another div for the space, justify content between to make the h1 and image go side by side, align item center for the text to come in center-->
+          <div class="cat1 d-flex justify-content-between align-items-center ">
+            <h3 id="watches">Watch</h3>
+            <img class = "img" src="resources/categories/watch.png" alt="">
           </div>
         </div>    
         
         <div class="col-md-4">
             <div class="cat2 d-flex justify-content-between align-items-center">
-              <h1>Shoes</h1>
-              <img src="resources/categories/shoes.png" alt="">
+              <h3>Shoes</h3>
+              <img class = "img" src="resources/categories/shoes.png" alt="">
             </div>
             
         </div>
         <div class="col-md-4">
           <div class="cat3 d-flex justify-content-between align-items-center">
-            <h1>Bag</h1>
-            <img src="resources/categories/bag.png" alt="">
+            <h3>Bag</h3>
+            <img class = "img" src="resources/categories/bag.png" alt="">
           </div>
             
         </div>
       </div>
     </div>
+
+    <!--4th catagory, Shoes-->
+    <!--Here is an example how id can be used for 1 click nav-->
+    <div class="container shoes" id ="shoes">
+      <h3 style="text-align:center;">Shoes</h3>
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card h-100">
+            <img src="resources/shoes/shoe-1.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Supply 350</h5>
+              <p class="card-text p-align">Staying true to its original design ethos with a breathable primeknit upper and comfortable boost-enhanced sole unit, the notable difference on this pair consists of two stripes implemented across its sides, with the orange-colored version showcasing the words “SPLY 350.”</p>
+              <h5>$250</h5>
+              
+            </div>
+            <div class="card-footer">
+              <button class="btn bn1 btn-danger">Buy Now >> </button>
+            </div>
+            
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="resources/shoes/shoe-2.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Nike 320</h5>
+              <p class="card-text p-align">Running is your daily ritual, taking you from road to trail as you seek out new adventures and goals. Let the Nike 320 take you there and back again with its supportive and springy feel.</p>
+              <h5>$450</h5>
+              
+            </div>
+            <div class="card-footer">
+              <button class="btn bn1 btn-danger">Buy Now >> </button>
+            </div>
+            
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="resources/shoes/shoe-3.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Red Air Max 90</h5>
+              <p class="card-text p-align">Lace up and add your touch to the sneaker revolution. Produced at the cross-section between art, music and culture, the Red Max 90 is now yours to customise. Choose between classic leather or add a little summertime flair with canvas.</p>
+              <h5>$300</h5>
+              
+            </div>
+            <div class="card-footer">
+              <button class="btn bn1 btn-danger">Buy Now >> </button>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+      
+    </div>
+
+    <!--5th catagory, backpack-->
     
+    <div class="container backpack" id ="backpack">
+      <h3 style="text-align:center;">Backpacks</h3>
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card h-100">
+            <img class = "img1" src="resources/bags/bag-1.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <br>
+              <h5 class="card-title">Red Backpack</h5>
+              <p class="card-text p-align">Staying true to its original design ethos with a breathable primeknit upper and comfortable boost-enhanced sole unit, the notable difference on this pair consists of two stripes implemented across its sides, with the orange-colored version showcasing the words “SPLY 350.”</p>
+              <h5>$250</h5>
+              
+            </div>
+            <div class="card-footer">
+              <button class="btn bn1 btn-danger">Buy Now >> </button>
+            </div>
+            
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img class = "img1" src="resources/bags/bag-2.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <br>
+              <h5 class="card-title">Blue Backpack</h5>
+              <p class="card-text p-align">Running is your daily ritual, taking you from road to trail as you seek out new adventures and goals. Let the Nike 320 take you there and back again with its supportive and springy feel.</p>
+              <br>
+              <br>
+              <h5>$450</h5>
+              
+            </div>
+            <div class="card-footer">
+              <button class="btn bn1 btn-danger">Buy Now >> </button>
+            </div>
+            
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img class = "img1" src="resources/bags/bag-3.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <br>
+              <h5 class="card-title">Black Bagpack</h5>
+              
+              <p class="card-text p-align">Lace up and add your touch to the sneaker revolution. Produced at the cross-section between art, music and culture, the Red Max 90 is now yours to customise. Choose between classic leather or add a little summertime flair with canvas.</p>
+              <br>
+
+              <h5>$300</h5>
+
+              
+            </div>
+            <div class="card-footer">
+              <button class="btn bn1 btn-danger">Buy Now >> </button>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+      
+    </div>
+
+    <!--Contact us-->
+    <div class="container bg-color custom">
+      <h3 class="test">LET'S STAY IN TOUCH</h3>
+      <h6>Get updates on sales, special and more!</h6>
+      <input type="text"> 
+      <br>
+      <button class="btn bn2 btn-success">Submit >> </button>
+    </div>
+    
+    
+    <!--Adding JS for bootstrap-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>  
 </body>
 </html>

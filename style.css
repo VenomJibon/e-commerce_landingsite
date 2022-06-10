@@ -1,8 +1,10 @@
 
+/*So that each container gets a space in between*/
 .container{
     margin-bottom: 100px;
 
 }
+/*Carousel customization*/
 .bg-color{
     background-color: #feeae9;
     border-radius: 10px;
@@ -17,19 +19,57 @@
 
 .bn{
     position: relative;
-    top:10px;
+    top:4px;
     left:3px;
+    
     cursor: pointer;
     /*To show a pointer type different cursor whenever the mouse is pointed there*/
 }
+.bn1{
+    position: relative;
+    
+    right:5px;
+    
+    cursor: pointer;
+
+}
+
+.bn2{
+    position: relative;
+    top:5px;
+}
+/*For making it responsive*/
+.col-md-7{
+    padding: 6px 12px;
+}
+
+
+
+
+
+/*Catagory part customization*/
 
 .cat1, .cat2, .cat3{
     padding: 10px 30px;
     border-radius: 10px;
+    
 }
+
+.img{
+    width: 100px;
+}
+.img1{
+    
+    height:300px;
+    width: 350px;
+}
+
+
+
 
 .cat1{
     background-color: orange;
+    
     
 }
 .cat2{
@@ -41,8 +81,34 @@
     
 }
 
-.third h1{
+.third h3{
     color: white;
+}
+
+
+/*Shoe catagory*/
+.card{
+    
+    border: none;
+    box-shadow: 5px 5px 10px lightgrey;
+}
+
+/*Bag catagory*/
+
+/*Here we basically removed the footer's top border and made the color white for the bag catagory*/
+.card-footer{
+    border-top: none;
+    background-color: white;
+}
+
+.custom{
+    text-align: center;
+    height: 300px;
+}
+
+.test{
+    display: inline-block;
+    border-top: 100px;
 }
 
 
