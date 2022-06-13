@@ -13,9 +13,12 @@
     padding: 20px 40px;
 }
 
+/*For aligning paragraph in carousel*/
 .p-align{
     text-align: justify;
 }
+
+/*Button in carousel*/
 
 .bn{
     position: relative;
@@ -25,6 +28,8 @@
     cursor: pointer;
     /*To show a pointer type different cursor whenever the mouse is pointed there*/
 }
+
+/*Button in shoe,backpack catagory*/
 .bn1{
     position: relative;
     
@@ -33,12 +38,13 @@
     cursor: pointer;
 
 }
+/*Button in last section*/
 
 .bn2{
     position: relative;
     top:5px;
 }
-/*For making it responsive*/
+/*For making it responsive - EXTRA*/
 .col-md-7{
     padding: 6px 12px;
 }
@@ -55,13 +61,14 @@
     
 }
 
+/*For responsiveness*/
 .img{
     width: 100px;
 }
 
 
 
-
+/*General Catagory Section*/
 
 .cat1{
     background-color: orange;
@@ -98,7 +105,7 @@
 }
 
 
-
+/*ID Customization*/
 #contactUs{
     height: 300px;
 }
